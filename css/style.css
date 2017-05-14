@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    border: 10px black;
+    height: 100px;
+    width: 33%;
+    background-color: #ff00ff;
+    
+}
