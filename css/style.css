@@ -10,26 +10,30 @@ h1 {
 }
 
 .outerDiv {
-    padding: 2px;
+    padding: 4px;
 }
 .innerDiv{
     border: 1px solid black;
     background-color: #ff00ff;
-    height: 150px;
+    height: 200px;
     position: relative;
 
 }
 
 h3{
     border: 1px solid black;
+    background: burlywood;
+    margin-right: -1px;
+    margin-top: -1px;
     text-align: center;
     clear: both;
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 75px;
+    width: 100px;
 }
 p{  
+    margin-top: 20px;
     padding: 10px 5px;
 }
 
@@ -45,6 +49,7 @@ p{
         float: left;
     }
     .fullScreen{
-    width: 100%;
-}
+        width: 100%;
+        clear: left;
+    }
 }
